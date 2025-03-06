@@ -2,20 +2,14 @@
 //  ContentView.swift
 //  LittleLemonDinnerMenu
 //
-//  Created by William Bodily on 2/19/25.
+//  Created by William Bodily on 12/1/24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MenuItemsView()
     }
 }
 

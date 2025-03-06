@@ -40,11 +40,6 @@
 			path = LittleLemonDinnerMenuTests;
 			sourceTree = "<group>";
 		};
-		3DA042F02D66636100933130 /* LittleLemonDinnerMenuUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LittleLemonDinnerMenuUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +72,6 @@
 			children = (
 				3DA042D52D66635F00933130 /* LittleLemonDinnerMenu */,
 				3DA042E62D66636100933130 /* LittleLemonDinnerMenuTests */,
-				3DA042F02D66636100933130 /* LittleLemonDinnerMenuUITests */,
 				3DA042D42D66635F00933130 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				3DA042EF2D66636100933130 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3DA042F02D66636100933130 /* LittleLemonDinnerMenuUITests */,
 			);
 			name = LittleLemonDinnerMenuUITests;
 			packageProductDependencies = (
